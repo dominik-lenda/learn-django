@@ -1,0 +1,24 @@
+1. Set up the first View
+- 
+- 
+
+2. Set up postgresql database
+- create a new database
+- edit settings.py
+-- configure .pg_service.conf home dir
+-- configure .pgpass
+- set TIME_ZONE
+command: python manage.py migrate
+
+3. Create models in app/models.py
+
+4. Activate models
+- add app.apps.AppConfig to INSTALLED_APPS in settings.py
+command: python manage.py makemigrations polls
+
+* command: python manage.py sqlmigrate polls 0001 (check SQL code)
+* command: python manage.py check (identify issues)
+* three step model to modify models: 1) change model in models.py,
+                                     2) run python manage.py makemigrations to create migration
+                                     3) python manage.py migrate 
+                                     
