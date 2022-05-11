@@ -33,5 +33,5 @@ command: python manage.py makemigrations polls
 -- prepare template and configure it in views.py, preferably with render shortcut
 -- raise a 404 error
 
-
+! Use generic views from the beginning
 
