@@ -31,6 +31,7 @@ command: python manage.py makemigrations polls
 -- within the templates direcotry create the app directory
 -- within the /app/templates/app create a file called index.html
 -- prepare template and configure it in views.py, preferably with render shortcut
+-- raise a 404 error
 
 
 
