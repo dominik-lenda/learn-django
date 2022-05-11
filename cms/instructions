@@ -1,6 +1,6 @@
 1. Set up the first View
-- 
-- 
+- add url in /urls.py
+- add urls in app.urls module 
 
 2. Set up postgresql database
 - create a new database
@@ -22,3 +22,15 @@ command: python manage.py makemigrations polls
                                      2) run python manage.py makemigrations to create migration
                                      3) python manage.py migrate 
                                      
+5. Add models to Admin site
+
+6. Add more Views
+- add functions to app/views.py
+- prepare templates to separate the design from Python
+-- create a directory called 'templates' in the app directory
+-- within the templates direcotry create the app directory
+-- within the /app/templates/app create a file called index.html
+-- prepare template and configure it in views.py, preferably with render shortcut
+
+
+
