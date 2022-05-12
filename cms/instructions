@@ -42,3 +42,5 @@ that at every state and for every new  change in the state of the system, the ex
 -- a separate TestClass for each model or view
 -- a separate test method for each set of conditions you want to test
 -- test method names that describe their function
+
+7. Add static files (css, javascript, images)
