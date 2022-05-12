@@ -35,3 +35,10 @@ command: python manage.py makemigrations polls
 
 ! Use generic views from the beginning
 
+! Prepare tests
+"We are using tests to tell a story of admin input and user experience on the site, checking
+that at every state and for every new  change in the state of the system, the expected results are published."
+- good rules of thumbs:
+-- a separate TestClass for each model or view
+-- a separate test method for each set of conditions you want to test
+-- test method names that describe their function

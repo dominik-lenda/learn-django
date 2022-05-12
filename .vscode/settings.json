@@ -1,0 +1,4 @@
+{
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/Users/dominiklenda/Library/Mobile Documents/com~apple~CloudDocs/projects/django-tutorials/learn-django/venv/bin/black"
+}
