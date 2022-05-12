@@ -44,3 +44,5 @@ that at every state and for every new  change in the state of the system, the ex
 -- test method names that describe their function
 
 7. Add static files (css, javascript, images)
+
+8. Modify admin page; tempaltes in the project dir
